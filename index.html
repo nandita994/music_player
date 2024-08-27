@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="musicPlayer">
+        <h1 class="musicName">Song </h1>
+        <p class="artistName">hello</p>
+
+        <div class="disk"></div>
+        <div class="slider">
+            <input type="range" value="0" class="bar">
+            <span class="currentTime">00:00</span>
+            <span class="songDurationTime">00:00</span>
+        </div>
+        <div class="controls">
+            <button class="btn backwardBtn"><img src="Images/pre.png" alt=""></button>
+            <button class="playBtn pause">
+                <span></span>
+                <span></span>
+            </button>
+            <button class="btn forwardBtn"><img src="Images/next.png" alt=""></button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
